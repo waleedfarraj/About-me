@@ -1,21 +1,26 @@
 body{
     background-color: blanchedalmond;
 }
+header{
+    text-align: center;
+    text-shadow: coral;
+    font-family: monospace;
+    font-size: large;
+    padding: 20px; 
+}
 p {
     text-align: center;
 }
 div p{
     padding-top: 220px;
     border: 20px;
-    
-}
-/* ol {
     border-style: groove;
     border-color: blueviolet;
-} */
+}
 #anything {
      margin-left: 50px;
      list-style-type: decimal;
+     border: rgb(105, 26, 42);
 }
 #something {
     margin-left: 50px;
