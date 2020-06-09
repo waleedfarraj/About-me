@@ -4,3 +4,20 @@ body{
 p {
     text-align: center;
 }
+div p{
+    padding-top: 220px;
+    border: 20px;
+    
+}
+/* ol {
+    border-style: groove;
+    border-color: blueviolet;
+} */
+#anything {
+     margin-left: 50px;
+     list-style-type: decimal;
+}
+#something {
+    margin-left: 50px;
+    list-style-type: square;
+}
