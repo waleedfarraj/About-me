@@ -111,12 +111,12 @@ for (var i = 0; i < 4 ;i++){
 alert("The correct answer was 25");
 console.log("what is my age?")
 var x =0
-var favNumbers =[18,5,3,7]
+var favNumbers = Math.floor((Math.random() * 100) + 1);
 var y = true
 
 console.log(favNumbers)
 do {
-   var guess = prompt("Can u guess one of my favourite numbers you have 6 attemps to guess one .")
+   var guess = prompt("Feeling lucky guess a random number from 1-100 (u have 6 attemps)")
     x=x+1
     for(var d= 0 ;d <4;d++){
         if (favNumbers[d]== guess) {y= false}
