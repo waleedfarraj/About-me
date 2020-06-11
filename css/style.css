@@ -11,7 +11,7 @@ header{
 p {
     text-align: center;
 }
-div p{
+ p{
     padding-top: 220px;
     border: 20px;
     border-style: groove;

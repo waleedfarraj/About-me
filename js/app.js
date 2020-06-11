@@ -115,7 +115,7 @@ userNameEntry();
 
 function favouriteNumber(){
     for (var i = 0; i < 4 ;i++){
-        number = prompt("what is my age?")
+       var  number = prompt("what is my age?")
         if (number > 25 ){
             alert("too high")
         } else if (number < 25 ){
@@ -127,15 +127,15 @@ function favouriteNumber(){
     }
     alert("The correct answer was 25");
     console.log("what is my age?")
-    var x =0
+    
+}
+favouriteNumber();
+var x =0
     var favNumbers = Math.floor((Math.random() * 100) + 1);
     var y = true
     
+
     console.log(favNumbers)
-}
-favouriteNumber();
-
-
 function guessingNumber(){
     do {
         var guess = prompt("Feeling lucky guess a random number from 1-100 (u have 6 attemps)")
