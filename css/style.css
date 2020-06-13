@@ -1,5 +1,5 @@
 body{
-    background-color: blanchedalmond;
+    background-color:#30c9e8;
 }
 header{
     text-align: center;
@@ -10,19 +10,40 @@ header{
 }
 p {
     text-align: center;
+    
 }
- p{
-    padding-top: 220px;
+
+ div p{
+    text-align: center;
+    padding-top:50px;
     border: 20px;
-    border-style: groove;
-    border-color: blueviolet;
-}
+ }
 #anything {
      margin-left: 50px;
      list-style-type: decimal;
      border: rgb(105, 26, 42);
+     margin-top: 20px;
+     padding: 20px;
 }
 #something {
     margin-left: 50px;
     list-style-type: square;
+}
+header{
+    background-color: 6787F0;
+}
+
+div{
+    background-color: 02A2C0;
+}
+main p:first-child{
+    border-style: groove;
+    border-color:6787F0;
+    margin: 0px;
+}
+#top{
+    border-style: solid;
+    border-color:92A9F5;
+    border-width: 10px;
+    border-radius: 1%;
 }
